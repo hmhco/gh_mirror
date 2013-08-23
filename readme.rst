@@ -11,3 +11,13 @@ Token in the clear:
 Token less clear:
 
 ``gh_mirror -o my_org -t `cat ~/gh_token` -d /data/gh_mirrors``
+
+Install
+--------------
+
+.. code-block::
+    
+    git clone https://github.com/zircote/gh_mirror.git
+    pushd gh_mirror
+    python setup.py install
+    popd
