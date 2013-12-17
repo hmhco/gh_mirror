@@ -21,3 +21,9 @@ Install
     pushd gh_mirror
     python setup.py install
     popd
+
+
+.. image:: https://d2weczhvl823v0.cloudfront.net/zircote/gh_mirror/trend.png
+   :alt: Bitdeli badge
+   :target: https://bitdeli.com/free
+
