@@ -53,7 +53,7 @@ def git_update_mirror(repo, cwd):
     :param repo dict:
     :param cwd str:
     """
-    args = ["git", "fetch", "-q"]
+    args = ["git", "remote", "update", "-q"]
     path = "%s/%s" % (cwd, repo['name'])
     logging.info("updating %s" % (repo['full_name']))
     subprocess.Popen(args, cwd=path)
